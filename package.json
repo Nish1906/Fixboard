@@ -1,0 +1,13 @@
+{
+  "name": "fixboard",
+  "version": "1.0.0",
+  "description": "Members-only problem board connecting verified industry professionals and students.",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "DEV_EXPOSE_CODE=1 node server.js",
+    "test": "node test/api.test.js"
+  },
+  "engines": { "node": ">=22.13" }
+}
